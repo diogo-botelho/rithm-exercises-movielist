@@ -17,5 +17,5 @@ $("#submitButton").on("click", function () {
 })
 
 $('#movieList').on("click", "li", function (evt) {
-    evt.target.remove();
+    evt.target.closest("li").remove();
 })
