@@ -30,3 +30,4 @@ $(".form-control").on("change", function (evt) {
 $(".image-center").on("click", function () {
     $("article").find(".image-center").remove()
 })
+
